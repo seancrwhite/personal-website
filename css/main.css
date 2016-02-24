@@ -1,0 +1,187 @@
+/***** general *****/
+html {
+  padding: 0;
+  margin: 0;
+  font-family: "EB Garamond", serif; }
+
+a {
+  text-decoration: none;
+  color: #AA3939; }
+
+/***** header *****/
+header {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.9em;
+  font-weight: 200;
+  max-width: 800px;
+  min-width: 496px;
+  height: 150px;
+  margin: 0 auto;
+  text-align: right; }
+  header a {
+    color: black; }
+  header img {
+    float: left;
+    max-width: 250px;
+    margin: 16.7% 7% 0 0; }
+  header ul {
+    padding: 0; }
+    header ul li {
+      display: inline-block; }
+  header .social {
+    margin: 0; }
+    header .social img {
+      max-width: 20px;
+      margin: 0 0 7px; }
+  header .email {
+    display: inline-block;
+    border-bottom: 1px solid black;
+    margin: 80px 0 5px;
+    font-weight: 200;
+    transition: color 0.5s, border-bottom-color 0.5s; }
+    header .email:hover {
+      color: #AA3939;
+      border-bottom-color: #AA3939; }
+
+/****** nav ******/
+nav {
+  font-size: 1em; }
+  nav ul {
+    display: flex;
+    justify-content: space-between; }
+    nav ul a {
+      display: flex;
+      -webkit-transition: color 0.5s;
+      -o-transition: color 0.5s;
+      transition: color 0.5s; }
+      nav ul a:hover {
+        color: #AA3939; }
+
+.selected {
+  font-weight: 700; }
+
+/***** section *****/
+#welcome {
+  clear: both;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  height: 175px;
+  padding: auto 0;
+  background-color: #050505;
+  color: white; }
+  #welcome h3 {
+    padding: 60px 0;
+    font-weight: 200;
+    font-size: 1.8em; }
+
+section {
+  padding: 2px 0 0; }
+  section p {
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: center; }
+
+#divider {
+  margin: -30px auto;
+  width: 20px; }
+
+.portfolio {
+  display: flex;
+  max-width: 800px;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 150px auto; }
+  .portfolio h3 {
+    text-align: center;
+    font-size: 1em;
+    margin-top: 10px; }
+  .portfolio h4 {
+    text-align: center;
+    font-size: 1em;
+    font-style: italic; }
+  .portfolio h6 {
+    text-align: center;
+    font-size: 0.7em;
+    color: #666; }
+  .portfolio p {
+    text-align: justify; }
+  .portfolio .project {
+    max-width: 225px;
+    flex: 1 0 225px;
+    margin: 0 auto 10px; }
+    .portfolio .project img {
+      max-width: 200px;
+      margin: 10px 12.5px; }
+  .portfolio .long-project {
+    max-width: 450px;
+    flex: 1 0 450px;
+    margin: 0 auto 10px; }
+    .portfolio .long-project img {
+      max-width: 425px;
+      margin: 10px 12.5px; }
+
+/***** Page: Resume *****/
+#resume {
+  display: block;
+  max-width: 800px;
+  width: 100%;
+  margin: 35px auto; }
+
+/***** Page: About *****/
+#about {
+  max-width: 800px;
+  margin: 20px auto; }
+  #about h1 {
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    margin: 20px auto 10%; }
+  #about img {
+    float: left;
+    max-width: 400px;
+    margin: 0 5% 300px; }
+  #about p {
+    max-width: none;
+    text-align: center;
+    margin: 15%; }
+
+/***** Page: Contact *****/
+#contact-info {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto; }
+  #contact-info #col1 {
+    text-align: center;
+    padding: 0 15px; }
+    #contact-info #col1 p {
+      text-align: left; }
+    #contact-info #col1 a {
+      margin-left: auto;
+      margin-right: auto; }
+  #contact-info #col2 {
+    margin-left: 20%;
+    color: white;
+    background-color: #050505;
+    height: 100%;
+    padding: 5px;
+    font-size: 0.8em; }
+    #contact-info #col2 p {
+      margin-left: 5%;
+      margin-right: 5%; }
+
+/***** footer *****/
+footer {
+  text-align: center;
+  color: white;
+  background-color: #050505;
+  height: 75px;
+  font-size: 0.7em;
+  clear: both; }
+  footer p {
+    padding: 0;
+    margin: 0 auto; }
+
+/*# sourceMappingURL=main.css.map */
